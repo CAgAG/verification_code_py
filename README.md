@@ -1,0 +1,2 @@
+# verification_code_py
+简单生成验证码图片的Python脚本
