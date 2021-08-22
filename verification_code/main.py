@@ -84,7 +84,7 @@ def verification_code(number=True, lower_letter=True, upper_letter=True, chinese
                   align='center')
     # 释放画笔
     del draw
-    # 将图片保存在内存中，文件类型为png
+    # 将图片保存在本地中，文件类型为png
     image.save(save_path, 'png')
     return ans
 
@@ -157,7 +157,7 @@ def verification_code_compute(save_path='./test.png',
                   align='center')
     # 释放画笔
     del draw
-    # 将图片保存在内存中，文件类型为png
+    # 将图片保存在本地中，文件类型为png
     image.save(save_path, 'png')
     return ans
 
